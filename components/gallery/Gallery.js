@@ -12,8 +12,6 @@ import {
 
 import images from '../../resources/images/index';
 
-console.dir(images);
-
 const styles = StyleSheet.create({
   container: {
     display: 'flex',
