@@ -2,7 +2,7 @@ import React from 'react';
 import {
   SafeAreaView,
   StyleSheet,
-  ScrollView,
+  // ScrollView,
   View,
   Text,
   StatusBar,
