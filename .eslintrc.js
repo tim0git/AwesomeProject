@@ -1,45 +1,27 @@
 module.exports = {
-  extends: 'airbnb',
-  parser: 'babel-eslint',
-  env: {
-    jest: true,
-  },
+  root: true,
+  extends: '@react-native-community',
   rules: {
-    'no-use-before-define': 'off',
-    'react/jsx-filename-extension': 'off',
-    'react/prop-types': 'off',
-    'comma-dangle': 'off',
-  },
-  globals: {
-    fetch: false,
+    semi: 0,
+    'prettier/prettier': 0,
+    'comma-dangle': 0,
+    'jsx-quotes': 0,
+    'no-shadow': 0,
+    'no-undef': 0,
+    'eslint-comments/no-unused-disable': 0,
+    'eslint-comments/no-unlimited-disable': 0,
+    'dot-notation': 0,
+    curly: 0,
+    'jest/no-disabled-tests': 0,
+    'react-native/no-inline-styles': 0, // <<< We should re-enabled this one
+    quotes: [2, 'single'],
+    'jest/no-identical-title': 0,
+    'react/no-did-mount-set-state': 0,
+    radix: 0,
+    'no-trailing-spaces': 2,
+    'no-unused-vars': 2,
+    'no-alert': 0,
+    'eol-last': 2,
+    'react/jsx-no-comment-textnodes': 0,
   },
 };
-
-// {
-//   "extends": [
-//     "airbnb",
-//     "prettier",
-//     "plugin:jest/recommended",
-//     "plugin:jest-formatting/recommended"
-//   ],
-//   "plugins": ["prettier", "jest", "jest-formatting", "react-native"],
-//   "parserOptions": {
-//     "ecmaFeatures": {
-//       "jsx": true
-//     }
-//   },
-//   "rules": {
-//     "react-native/no-unused-styles": 2,
-//     "react-native/split-platform-components": 2,
-//     "react-native/no-inline-styles": 2,
-//     "react-native/no-color-literals": 2,
-//     "react-native/no-raw-text": 2,
-//     "react-native/no-single-element-style-arrays": 2,
-//     "react/jsx-filename-extension": [
-//       1,
-//       {
-//         "extensions": [".js", ".jsx"]
-//       }
-//     ]
-//   }
-// }
