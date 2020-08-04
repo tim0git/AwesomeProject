@@ -1,13 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import {
-  //   SafeAreaView,
-  //   StyleSheet,
-  // ScrollView,
-  View,
-  Text,
-  //   StatusBar,
-} from 'react-native';
+import {View, Text} from 'react-native';
 
 function Details(props) {
   return (

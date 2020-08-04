@@ -1,19 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import {
-  //   SafeAreaView,
-  //   StyleSheet,
-  // ScrollView,
-  View,
-  Text,
-  //   StatusBar,
-} from 'react-native';
-
-// const styles = StyleSheet.create({
-//   container: {
-//     alignItems: 'center',
-//   },
-// });
+import {View, Text} from 'react-native';
 
 function Hello(props) {
   return (
