@@ -1,19 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Hello > Component Renders 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "flex": 1,
-      "justifyContent": "center",
-    }
-  }
->
-  <Text
-    id="welcome-message"
-  >
-    Hello World
-  </Text>
-</View>
+exports[`<App > Component Renders 1`] = `
+<ForwardRef(NavigationContainer)>
+  <BottomTabNavigator>
+    <Screen
+      component={[Function]}
+      name="Home"
+    />
+    <Screen
+      component={[Function]}
+      name="Image Gallery"
+    />
+    <Screen
+      component={[Function]}
+      name="Details"
+    />
+  </BottomTabNavigator>
+</ForwardRef(NavigationContainer)>
 `;

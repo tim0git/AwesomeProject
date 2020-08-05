@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App > Component Renders 1`] = `
+<StackNavigator
+  initialRouteName={[Function]}
+>
+  <Screen
+    component={[Function]}
+    name="Gallery"
+  />
+  <Screen
+    component={[Function]}
+    name="Forrest"
+  />
+  <Screen
+    component={[Function]}
+    name="Beach"
+  />
+  <Screen
+    component={[Function]}
+    name="City"
+  />
+  <Screen
+    component={[Function]}
+    name="Mountains"
+  />
+</StackNavigator>
+`;

@@ -1,5 +1,5 @@
-import React from 'react';
-// import PropTypes from 'prop-types';
+import React, {useState} from 'react';
+import PropTypes from 'prop-types';
 import {
   SafeAreaView,
   View,
@@ -26,67 +26,41 @@ const styles = StyleSheet.create({
 });
 
 function Gallery({navigation}) {
-  // can i not map through the above? is this the flat list component? are there performance improvements using flat list?
+  const [types] = useState(['Forrest', 'Beach', 'City', 'Mountains']);
   return (
     <SafeAreaView>
       <ScrollView contentContainerStyle={styles.container}>
-        <View>
-          <TouchableOpacity onPress={() => navigation.navigate('Forrest')}>
-            <Image
-              source={images.forrest}
-              style={{
-                resizeMode: 'cover',
-                height: 150,
-                width: 200,
-              }}
-            />
-            <Text style={styles.description}>Forrest</Text>
-          </TouchableOpacity>
-        </View>
-        <View>
-          <TouchableOpacity onPress={() => navigation.navigate('Beach')}>
-            <Image
-              source={images.beach}
-              style={{
-                resizeMode: 'cover',
-                height: 150,
-                width: 200,
-              }}
-            />
-            <Text style={styles.description}>Beach</Text>
-          </TouchableOpacity>
-        </View>
-        <View>
-          <TouchableOpacity onPress={() => navigation.navigate('City')}>
-            <Image
-              source={images.city}
-              style={{
-                resizeMode: 'cover',
-                height: 150,
-                width: 200,
-              }}
-            />
-            <Text style={styles.description}>City</Text>
-          </TouchableOpacity>
-        </View>
-        <View>
-          <TouchableOpacity onPress={() => navigation.navigate('Mountains')}>
-            <Image
-              source={images.mountains}
-              style={{
-                resizeMode: 'cover',
-                height: 150,
-                width: 200,
-              }}
-            />
-            <Text style={styles.description}>Mountains</Text>
-          </TouchableOpacity>
-        </View>
+        {types.map((type) => {
+          return (
+            // Possibly extract this out into a re-usable component..
+            <View key={type}>
+              <TouchableOpacity
+                onPress={() =>
+                  navigation.navigate(type, {
+                    type,
+                  })
+                }>
+                <Image
+                  source={images[type.toLowerCase()]}
+                  style={{
+                    resizeMode: 'cover',
+                    height: 150,
+                    width: 200,
+                  }}
+                  id={type}
+                />
+                <Text style={styles.description}>{type}</Text>
+              </TouchableOpacity>
+            </View>
+          );
+        })}
       </ScrollView>
     </SafeAreaView>
   );
 }
 
-Gallery.propTypes = {};
+Gallery.propTypes = {
+  navigation: PropTypes.object.isRequired,
+};
 
 export default Gallery;

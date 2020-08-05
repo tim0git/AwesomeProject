@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App > Component Renders 1`] = `
+<ForwardRef(SafeAreaView)>
+  <ScrollView
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": "100%",
+        "justifyContent": "space-around",
+        "textAlign": "center",
+      }
+    }
+  >
+    <View
+      key="Forrest"
+    >
+      <ForwardRef
+        onPress={[Function]}
+      >
+        <Image
+          id="Forrest"
+          source="test-file-stub"
+          style={
+            Object {
+              "height": 150,
+              "resizeMode": "cover",
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Forrest
+        </Text>
+      </ForwardRef>
+    </View>
+    <View
+      key="Beach"
+    >
+      <ForwardRef
+        onPress={[Function]}
+      >
+        <Image
+          id="Beach"
+          source="test-file-stub"
+          style={
+            Object {
+              "height": 150,
+              "resizeMode": "cover",
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Beach
+        </Text>
+      </ForwardRef>
+    </View>
+    <View
+      key="City"
+    >
+      <ForwardRef
+        onPress={[Function]}
+      >
+        <Image
+          id="City"
+          source="test-file-stub"
+          style={
+            Object {
+              "height": 150,
+              "resizeMode": "cover",
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          City
+        </Text>
+      </ForwardRef>
+    </View>
+    <View
+      key="Mountains"
+    >
+      <ForwardRef
+        onPress={[Function]}
+      >
+        <Image
+          id="Mountains"
+          source="test-file-stub"
+          style={
+            Object {
+              "height": 150,
+              "resizeMode": "cover",
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Mountains
+        </Text>
+      </ForwardRef>
+    </View>
+  </ScrollView>
+</ForwardRef(SafeAreaView)>
+`;
+
+exports[`<Gallery > Component Renders 1`] = `
+<ForwardRef(SafeAreaView)>
+  <ScrollView
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": "100%",
+        "justifyContent": "space-around",
+        "textAlign": "center",
+      }
+    }
+  >
+    <View
+      key="Forrest"
+    >
+      <ForwardRef
+        onPress={[Function]}
+      >
+        <Image
+          id="Forrest"
+          source="test-file-stub"
+          style={
+            Object {
+              "height": 150,
+              "resizeMode": "cover",
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Forrest
+        </Text>
+      </ForwardRef>
+    </View>
+    <View
+      key="Beach"
+    >
+      <ForwardRef
+        onPress={[Function]}
+      >
+        <Image
+          id="Beach"
+          source="test-file-stub"
+          style={
+            Object {
+              "height": 150,
+              "resizeMode": "cover",
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Beach
+        </Text>
+      </ForwardRef>
+    </View>
+    <View
+      key="City"
+    >
+      <ForwardRef
+        onPress={[Function]}
+      >
+        <Image
+          id="City"
+          source="test-file-stub"
+          style={
+            Object {
+              "height": 150,
+              "resizeMode": "cover",
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          City
+        </Text>
+      </ForwardRef>
+    </View>
+    <View
+      key="Mountains"
+    >
+      <ForwardRef
+        onPress={[Function]}
+      >
+        <Image
+          id="Mountains"
+          source="test-file-stub"
+          style={
+            Object {
+              "height": 150,
+              "resizeMode": "cover",
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Mountains
+        </Text>
+      </ForwardRef>
+    </View>
+  </ScrollView>
+</ForwardRef(SafeAreaView)>
+`;

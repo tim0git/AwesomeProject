@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios --port 8087",
     "start": "react-native start --port 8087",
-    "test": "jest",
+    "test": "jest --watch",
     "lint": "eslint ."
   },
   "dependencies": {
