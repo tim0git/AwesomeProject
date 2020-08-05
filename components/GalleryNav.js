@@ -1,7 +1,7 @@
 import React from 'react';
+// import PropTypes from 'prop-types'
 import {createStackNavigator} from '@react-navigation/stack';
 import Gallery from './gallery/Gallery';
-
 import SubGallery from './gallery/SubGallery';
 
 const Stack = createStackNavigator();
@@ -17,5 +17,7 @@ function GalleryNav(props) {
     </Stack.Navigator>
   );
 }
+
+// GalleryNav.propTypes = {}
 
 export default GalleryNav;

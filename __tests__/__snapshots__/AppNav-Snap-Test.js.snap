@@ -175,6 +175,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render 
                                         style="opacity:1"
                                       >
                                         <img
+                                          id="Forrest"
                                           source="test-file-stub"
                                           style="resize-mode:cover;height:150px;width:200px"
                                         />
@@ -191,6 +192,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render 
                                         style="opacity:1"
                                       >
                                         <img
+                                          id="Beach"
                                           source="test-file-stub"
                                           style="resize-mode:cover;height:150px;width:200px"
                                         />
@@ -207,6 +209,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render 
                                         style="opacity:1"
                                       >
                                         <img
+                                          id="City"
                                           source="test-file-stub"
                                           style="resize-mode:cover;height:150px;width:200px"
                                         />
@@ -223,6 +226,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render 
                                         style="opacity:1"
                                       >
                                         <img
+                                          id="Mountains"
                                           source="test-file-stub"
                                           style="resize-mode:cover;height:150px;width:200px"
                                         />

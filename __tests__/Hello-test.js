@@ -4,12 +4,11 @@ import 'jest-enzyme';
 import 'react-native-mock-render/mock';
 import {shallow} from 'enzyme';
 import toJson from 'enzyme-to-json';
+import Hello from '../components/Hello';
 
 // import {shallow, mount} from 'enzyme';
 // import sinon from 'sinon';
 // import renderer from 'react-test-renderer';
-
-import Hello from '../components/Hello';
 
 describe('<Hello >', () => {
   // jest.useFakeTimers();

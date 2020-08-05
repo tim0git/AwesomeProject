@@ -4,11 +4,11 @@ import 'jest-enzyme';
 import 'react-native-mock-render/mock';
 import {shallow} from 'enzyme';
 import toJson from 'enzyme-to-json';
+import GalleryNav from '../components/GalleryNav';
 
 // import App from '../App';
 // import Hello from '../components/Hello';
 // import Details from '../components/Details';
-import GalleryNav from '../components/GalleryNav';
 
 describe('<GalleryNav >', () => {
   const galleryNav = <GalleryNav />;
@@ -44,22 +44,22 @@ describe('<GalleryNav >', () => {
 
   it('screen 2 has text Forrest', () => {
     const wrapper = shallow(galleryNav);
-    expect(wrapper.find('Screen').at(1).props().name).toBe('Forrest');
+    expect(wrapper.find('Screen').at(1).props().name).toBe('Mountains');
   });
 
   it('screen 3 has text Beach', () => {
     const wrapper = shallow(galleryNav);
-    expect(wrapper.find('Screen').at(2).props().name).toBe('Beach');
+    expect(wrapper.find('Screen').at(2).props().name).toBe('Forrest');
   });
 
   it('screen 4 has text City', () => {
     const wrapper = shallow(galleryNav);
-    expect(wrapper.find('Screen').at(3).props().name).toBe('City');
+    expect(wrapper.find('Screen').at(3).props().name).toBe('Beach');
   });
 
   it('screen 5 has text Mountains', () => {
     const wrapper = shallow(galleryNav);
-    expect(wrapper.find('Screen').last().props().name).toBe('Mountains');
+    expect(wrapper.find('Screen').last().props().name).toBe('City');
   });
 
   test.todo('should render a <Forrest > component when you press Forrest');

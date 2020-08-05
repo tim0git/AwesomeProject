@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App > Tab Nav Mock Tests MockTabNavigator <Details > should render correctly 1`] = `
+exports[`<GalleryNav > Tab Nav Mock Tests MockTabNavigator <Details > should render correctly 1`] = `
 <view
   style="flex:1"
 >
@@ -107,7 +107,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <Details > should render cor
 </view>
 `;
 
-exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render correctly 1`] = `
+exports[`<GalleryNav > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render correctly 1`] = `
 <view
   style="flex:1"
 >
@@ -246,6 +246,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render 
                                                 style="opacity:1"
                                               >
                                                 <img
+                                                  id="Forrest"
                                                   source="test-file-stub"
                                                   style="resize-mode:cover;height:150px;width:200px"
                                                 />
@@ -262,6 +263,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render 
                                                 style="opacity:1"
                                               >
                                                 <img
+                                                  id="Beach"
                                                   source="test-file-stub"
                                                   style="resize-mode:cover;height:150px;width:200px"
                                                 />
@@ -278,6 +280,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render 
                                                 style="opacity:1"
                                               >
                                                 <img
+                                                  id="City"
                                                   source="test-file-stub"
                                                   style="resize-mode:cover;height:150px;width:200px"
                                                 />
@@ -294,6 +297,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render 
                                                 style="opacity:1"
                                               >
                                                 <img
+                                                  id="Mountains"
                                                   source="test-file-stub"
                                                   style="resize-mode:cover;height:150px;width:200px"
                                                 />
@@ -332,7 +336,7 @@ exports[`<App > Tab Nav Mock Tests MockTabNavigator <GalleryNav > should render 
 </view>
 `;
 
-exports[`<App > Tab Nav Mock Tests MockTabNavigator <Hello > should render correctly 1`] = `
+exports[`<GalleryNav > Tab Nav Mock Tests MockTabNavigator <Hello > should render correctly 1`] = `
 <view
   style="flex:1"
 >

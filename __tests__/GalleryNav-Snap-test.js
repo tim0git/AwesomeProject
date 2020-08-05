@@ -2,14 +2,13 @@ import 'react-native';
 import React from 'react';
 import 'jest-enzyme';
 import 'react-native-mock-render/mock';
-// import {shallow} from 'enzyme';
-// import toJson from 'enzyme-to-json';
-
+import MockedStackNavigator from '../__mocks__/MockedStackNavigatior';
 import Hello from '../components/Hello';
 import Details from '../components/Details';
 import GalleryNav from '../components/GalleryNav';
 
-import MockedStackNavigator from '../__mocks__/MockedStackNavigatior';
+// import {shallow} from 'enzyme';
+// import toJson from 'enzyme-to-json';
 
 describe('<GalleryNav > Tab Nav Mock Tests', () => {
   it('MockTabNavigator <Hello > should render correctly', () => {

@@ -4,11 +4,11 @@ import 'jest-enzyme';
 import 'react-native-mock-render/mock';
 import {shallow} from 'enzyme';
 import toJson from 'enzyme-to-json';
+import Gallery from '../components/gallery/Gallery';
 
 // import App from '../App';
 // import Hello from '../components/Hello';
 // import Details from '../components/Details';
-import Gallery from '../components/gallery/Gallery';
 
 describe('<Gallery >', () => {
   const gallery = <Gallery />;
