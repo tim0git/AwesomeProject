@@ -50,12 +50,13 @@ exports.data = [
   {
     id: 9,
     type: 'Beach',
-    src: 'https://i.ytimg.com/vi/gUnK_xeUPgg/maxresdefault.jpg',
+    src:
+      'https://s3.amazonaws.com/factmag-images/wp-content/uploads/2017/04/C-k0aRyVwAASQG0.jpg',
   },
   {
     id: 10,
     type: 'Beach',
     src:
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&w=1000&q=80',
+      'https://s3.amazonaws.com/factmag-images/wp-content/uploads/2017/04/C-k0aRyVwAASQG0.jpg',
   },
 ];

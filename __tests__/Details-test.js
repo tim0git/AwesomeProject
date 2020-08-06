@@ -12,7 +12,6 @@ import toJson from 'enzyme-to-json';
 import Details from '../components/Details';
 
 describe('<Details >', () => {
-  // jest.useFakeTimers();
   const details = <Details />;
 
   it('Component Renders', () => {

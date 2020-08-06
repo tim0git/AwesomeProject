@@ -22,7 +22,7 @@ function SubGalllery({route}) {
   const routeType = route.name;
 
   useEffect(() => {
-    // mock data fetch {use data}
+    // mock data fetch use {data}
     const displayData = data.filter((item) => item.type === routeType);
 
     setDataSource(displayData);

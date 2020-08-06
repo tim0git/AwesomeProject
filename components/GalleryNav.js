@@ -6,7 +6,7 @@ import SubGallery from './gallery/SubGallery';
 
 const Stack = createStackNavigator();
 
-function GalleryNav(props) {
+function GalleryNav() {
   return (
     <Stack.Navigator initialRouteName={Gallery}>
       <Stack.Screen name="Gallery" component={Gallery} />
