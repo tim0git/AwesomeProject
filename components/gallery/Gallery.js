@@ -9,7 +9,6 @@ import {
   TouchableOpacity,
   Image,
 } from 'react-native';
-
 import images from '../../resources/images/index';
 
 const styles = StyleSheet.create({
