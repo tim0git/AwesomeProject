@@ -52,6 +52,61 @@ describe('<App >', () => {
     expect(wrapper.find('Screen').last().props().name).toBe('Details');
   });
 
+  //
+  it('is accessible', () => {
+    const wrapper = mount(app);
+    const indexArray = [0, 1, 2];
+    indexArray.forEach((index) => {
+      expect(wrapper.find('TouchableWithoutFeedback').at(index)).toHaveProp(
+        'accessibilityLabel',
+      );
+    });
+  });
+
+  it('has an accessibility label', () => {
+    const wrapper = mount(app);
+    const indexArray = [0, 1, 2];
+    indexArray.forEach((index) => {
+      expect(wrapper.find('TouchableWithoutFeedback').at(index)).toHaveProp(
+        'accessibilityLabel',
+        expect.any(String),
+      );
+    });
+  });
+
+  it('has an accessibility role of button', () => {
+    const wrapper = mount(app);
+    const indexArray = [0, 1, 2];
+    indexArray.forEach((index) => {
+      expect(wrapper.find('TouchableWithoutFeedback').at(index)).toHaveProp(
+        'accessibilityRole',
+        'button',
+      );
+    });
+  });
+
+  it('tabBar is accessible', () => {
+    const wrapper = mount(app);
+    const indexArray = [0, 1, 2];
+    indexArray.forEach((index) => {
+      expect(wrapper.find('BottomTabBarItem').at(index)).toHaveProp(
+        'accessibilityLabel',
+      );
+    });
+  });
+
+  it('tabBar has an accessibility label', () => {
+    const wrapper = mount(app);
+    const indexArray = [0, 1, 2];
+    indexArray.forEach((index) => {
+      expect(wrapper.find('BottomTabBarItem').at(index)).toHaveProp(
+        'accessibilityLabel',
+        expect.any(String),
+      );
+    });
+  });
+
+  //
   test.todo(
     'should render a <Hello > component when you press Hello on the nav bar',
   );
